@@ -1,0 +1,127 @@
+#headerfont {
+    font-weight: 600;
+}
+#nearestcarfont {
+    font-weight: 100;
+}
+#carnamefont {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #2C2B34;
+}
+
+html {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 812px;
+    background-color: #fff;
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+p {
+    font-weight: 300;
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+    align-self: center;
+}
+
+.smallbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15px;
+    width: 100px;
+    width: auto;
+}
+
+.bigbox {
+    border-radius: 28px;
+    padding: 20px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grey {
+    background: #F3F3F3;
+}
+.darkblue {
+    background: #282931;
+}
+.nearestCarText {
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    color: #787878;
+}
+.carimgsize {
+    width: 302.03px;
+    height: auto;
+}
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.gps, .liters {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    color: #787878;
+}
+
+.smallboxcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+.boxleft, .boxright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.car1, .car2{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cardata {
+    display: flex;
+    flex-direction: row;
+}
+.arrowborder{
+    background: #FFFFFF;
+    padding: 7px;
+    height: 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 7.27273px 18.9091px rgba(0, 0, 0, 0.1);
+    border-radius: 36.3636px;
+}

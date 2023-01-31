@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <!-- information and notification box -->
+        <div class="header">
+            <div class="smallbox">
+                <img src="src/infoIcon.png" alt="infoIcon" style="align-self: center;margin-right: 10px;">
+                <p id="headerfont">Information</p>
+            </div>
+
+            <div class="smallbox">
+                <img src="src/notificationIcon.png" alt="notificationIcon" style="align-self: center;margin-right: 10px;">
+                <p id="headerfont">Notifications</p>
+            </div>
+        </div>
+        <!--  end information and notification box -->
+
+        <div class="content">
+            
+            <!-- nearest car box -->
+            <div class="bigbox grey" style="margin-bottom: 25px;">
+
+                <p class="nearestCarText" name="nearestcarfont">NEAREST CAR<p>
+                <img class="carimgsize" src="src/car.png" alt="car">
+                <p name="carnamefont" style="font-family: 'Barlow Condensed', sans-serif;font-weight: 500; font-size: 20px;">Fortuner GR<p>
+                <div class="details">
+                    <div class="left">
+
+                        <div class="gps">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="align-self: center;padding: 5px;" xmlns="http://www.w3.org/2000/svg"><path d="M12.946 2.09L8.97734 12.81C8.72667 13.4873 8.00467 13.8353 7.36534 13.5867C7.20701 13.524 7.06339 13.4291 6.94349 13.3082C6.82359 13.1873 6.73002 13.0429 6.66867 12.884L5.41067 9.704C5.17426 9.09357 4.70562 8.60167 4.10734 8.336L1.07934 7.01533C0.449336 6.74 0.162669 5.97667 0.438003 5.31C0.503128 5.14903 0.599529 5.00257 0.721629 4.87909C0.843728 4.75562 0.989101 4.65759 1.14934 4.59067L11.36 0.424C12.0047 0.160667 12.72 0.491333 12.9567 1.16333C13.0613 1.46067 13.0573 1.79 12.9467 2.09H12.946Z" fill="#787878"/></svg>
+                            <p id="detailsKmL" style="color: #787878;"> > 870km</p>
+                        </div>
+                        <div class="liters" style="margin-left: 20px;">
+                            <svg width="15" height="14" viewBox="0 0 15 14" fill="none" style="align-self: center;padding: 5px;" xmlns="http://www.w3.org/2000/svg"><path d="M13.712 2.86L13.7225 2.84725L10.7225 0.41725L9.7775 1.58275L11.3278 2.83825C10.9432 3.07194 10.6378 3.41594 10.4514 3.8255C10.2649 4.23506 10.206 4.69125 10.2823 5.13475C10.3948 5.809 10.859 6.39175 11.4598 6.718C12.131 7.08325 12.7197 7.0495 13.2432 6.8635L13.232 11.5C13.2329 11.6242 13.2028 11.7466 13.1445 11.8563C13.0862 11.9659 13.0014 12.0593 12.8979 12.1279C12.7944 12.1966 12.6755 12.2384 12.5518 12.2495C12.4281 12.2606 12.3036 12.2406 12.1895 12.1915C12.1002 12.1533 12.0191 12.098 11.951 12.0287C11.8817 11.9593 11.8267 11.8768 11.7893 11.7861C11.7518 11.6954 11.7326 11.5982 11.7327 11.5L11.75 10C11.7508 9.70479 11.693 9.41234 11.5801 9.13957C11.4672 8.86679 11.3014 8.61908 11.0922 8.41075C10.8833 8.20135 10.6351 8.03521 10.3619 7.92183C10.0887 7.80845 9.79581 7.75006 9.5 7.75H8.75V1.75C8.75 1.35218 8.59196 0.970644 8.31066 0.68934C8.02936 0.408035 7.64782 0.25 7.25 0.25H2C1.60218 0.25 1.22064 0.408035 0.93934 0.68934C0.658035 0.970644 0.5 1.35218 0.5 1.75V12.25C0.5 12.6478 0.658035 13.0294 0.93934 13.3107C1.22064 13.592 1.60218 13.75 2 13.75H7.25C7.64782 13.75 8.02936 13.592 8.31066 13.3107C8.59196 13.0294 8.75 12.6478 8.75 12.25V9.25H9.5C9.602 9.25 9.70025 9.27025 9.79325 9.3085C9.97174 9.38664 10.114 9.52946 10.1915 9.70825C10.2304 9.80058 10.2503 9.89981 10.25 10L10.232 11.5C10.232 11.8045 10.2913 12.0992 10.409 12.376C10.5223 12.6452 10.685 12.886 10.8897 13.0892C11.0979 13.2997 11.346 13.4665 11.6194 13.5799C11.8928 13.6934 12.186 13.7512 12.482 13.75C12.7865 13.75 13.0805 13.6915 13.358 13.573C13.6265 13.4605 13.868 13.2977 14.0712 13.0922C14.2812 12.8837 14.4477 12.6356 14.5611 12.3623C14.6746 12.089 14.7326 11.7959 14.732 11.5L14.75 4.75C14.7493 4.37322 14.6538 4.00266 14.4724 3.67241C14.291 3.34215 14.0296 3.06279 13.712 2.86ZM7.25 4H2V1.75H7.25V4ZM12.5 5.5C12.3011 5.5 12.1103 5.42098 11.9697 5.28033C11.829 5.13968 11.75 4.94891 11.75 4.75C11.75 4.55109 11.829 4.36032 11.9697 4.21967C12.1103 4.07902 12.3011 4 12.5 4C12.6989 4 12.8897 4.07902 13.0303 4.21967C13.171 4.36032 13.25 4.55109 13.25 4.75C13.25 4.94891 13.171 5.13968 13.0303 5.28033C12.8897 5.42098 12.6989 5.5 12.5 5.5Z" fill="#787878"/></svg>
+                            <p id="detailsKmL" style="color: #787878;"> 50L</p>
+                        </div>
+
+                    </div>
+                    <div class="right">
+                        <p id="priceText" style="font-weight: 600;">$ 45,00/h</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end nearest car box -->
+
+            <!-- person and location boxes -->
+            <div class="smallboxcontainer" style="margin-bottom: 25px;">
+
+                <div class="boxleft grey" style="width: 47%;">
+                    <img src="src/personAvatar.png" alt="avatar" style="margin-top: 25px;">
+                    <p style="font-weight: 500; margin-top: 15px;">Jane cooper</p>
+                    <p style="font-weight: 600; margin-bottom: 20px;margin-top: 5px;">$4,253</p>
+                </div>
+
+                <!-- between boxes -->
+                <img src="src/map.png" alt="map" class="boxright" style="max-width:47%;max-height:auto;">
+            </div>
+            <!-- end person and location boxes -->
+
+            <!-- more cars box -->
+            <div class="bigbox darkblue">
+                
+                <div class="row">
+                    <p style="font-weight: 100; color:white;">More Cars</p>
+                    <img src="src/dotsIcon.png" alt="dots" style="height: 3px;width: auto;align-self: center;">
+                </div>
+
+                <!-- first car from more cars box -->
+                <div class="car1" style="border-bottom: 1px solid #4B4B4B;padding-bottom:20px">
+                    <div class="cardetails">
+                        <p style="font-weight: 700;font-size: 20px;line-height: 120%;color:white;">Corolla Cross</p>
+                        <div class="cardata" style="margin-top: 10px;">
+                            
+                            <div class="gps"> 
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="align-self: center;margin-right: 8px" xmlns="http://www.w3.org/2000/svg"><path d="M12.946 2.08999L8.97734 12.81C8.72667 13.4873 8.00467 13.8353 7.36534 13.5867C7.20701 13.5239 7.06339 13.4291 6.94349 13.3082C6.82359 13.1873 6.73002 13.0428 6.66867 12.884L5.41067 9.70399C5.17426 9.09355 4.70562 8.60166 4.10734 8.33599L1.07934 7.01532C0.449336 6.73999 0.162669 5.97666 0.438003 5.30999C0.503128 5.14902 0.599529 5.00256 0.721629 4.87908C0.843728 4.75561 0.989101 4.65758 1.14934 4.59066L11.36 0.423989C12.0047 0.160655 12.72 0.491322 12.9567 1.16332C13.0613 1.46066 13.0573 1.78999 12.9467 2.08999H12.946Z" fill="#D8D8D8"/></svg>
+                                <p id="detailsKmL" style="color: #D8D8D8;"> > 4km</p>
+                            </div>
+
+                            <div class="liters" style="margin-left: 20px;">
+                                <svg width="15" height="14" viewBox="0 0 15 14" fill="none" style="align-self: center;margin-right: 10px" xmlns="http://www.w3.org/2000/svg"><path d="M13.712 2.86L13.7225 2.84725L10.7225 0.41725L9.7775 1.58275L11.3278 2.83825C10.9432 3.07194 10.6378 3.41594 10.4514 3.8255C10.2649 4.23506 10.206 4.69125 10.2823 5.13475C10.3948 5.809 10.859 6.39175 11.4598 6.718C12.131 7.08325 12.7197 7.0495 13.2432 6.8635L13.232 11.5C13.2329 11.6242 13.2028 11.7466 13.1445 11.8563C13.0862 11.9659 13.0014 12.0593 12.8979 12.1279C12.7944 12.1966 12.6755 12.2384 12.5518 12.2495C12.4281 12.2606 12.3036 12.2406 12.1895 12.1915C12.1002 12.1533 12.0191 12.098 11.951 12.0287C11.8817 11.9593 11.8267 11.8768 11.7893 11.7861C11.7518 11.6954 11.7326 11.5982 11.7327 11.5L11.75 10C11.7508 9.70479 11.693 9.41234 11.5801 9.13957C11.4672 8.86679 11.3014 8.61908 11.0922 8.41075C10.8833 8.20135 10.6351 8.03521 10.3619 7.92183C10.0887 7.80845 9.79581 7.75006 9.5 7.75H8.75V1.75C8.75 1.35218 8.59196 0.970644 8.31066 0.68934C8.02936 0.408035 7.64782 0.25 7.25 0.25H2C1.60218 0.25 1.22064 0.408035 0.93934 0.68934C0.658035 0.970644 0.5 1.35218 0.5 1.75V12.25C0.5 12.6478 0.658035 13.0294 0.93934 13.3107C1.22064 13.592 1.60218 13.75 2 13.75H7.25C7.64782 13.75 8.02936 13.592 8.31066 13.3107C8.59196 13.0294 8.75 12.6478 8.75 12.25V9.25H9.5C9.602 9.25 9.70025 9.27025 9.79325 9.3085C9.97174 9.38664 10.114 9.52946 10.1915 9.70825C10.2304 9.80058 10.2503 9.89981 10.25 10L10.232 11.5C10.232 11.8045 10.2913 12.0992 10.409 12.376C10.5223 12.6452 10.685 12.886 10.8897 13.0892C11.0979 13.2997 11.346 13.4665 11.6194 13.5799C11.8928 13.6934 12.186 13.7512 12.482 13.75C12.7865 13.75 13.0805 13.6915 13.358 13.573C13.6265 13.4605 13.868 13.2977 14.0712 13.0922C14.2812 12.8837 14.4477 12.6356 14.5611 12.3623C14.6746 12.089 14.7326 11.7959 14.732 11.5L14.75 4.75C14.7493 4.37322 14.6538 4.00266 14.4724 3.67241C14.291 3.34215 14.0296 3.06279 13.712 2.86ZM7.25 4H2V1.75H7.25V4ZM12.5 5.5C12.3011 5.5 12.1103 5.42098 11.9697 5.28033C11.829 5.13968 11.75 4.94891 11.75 4.75C11.75 4.55109 11.829 4.36032 11.9697 4.21967C12.1103 4.07902 12.3011 4 12.5 4C12.6989 4 12.8897 4.07902 13.0303 4.21967C13.171 4.36032 13.25 4.55109 13.25 4.75C13.25 4.94891 13.171 5.13968 13.0303 5.28033C12.8897 5.42098 12.6989 5.5 12.5 5.5Z" fill="#D8D8D8"/></svg>
+                                <p id="detailsKmL" style="color: #D8D8D8;"> 50L</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="arrowborder">
+                        <img src="src/arrowIcon.png" alt="arrow" class="arrow">
+                    </div>
+                </div>
+                <!-- end first car from more cars box -->
+
+                <!-- second car from more cars box -->
+                <div class="car2">
+                    <div class="cardetails">
+                        <p style="font-weight: 700;font-size: 20px;line-height: 120%;color:white;">Ionic 5</p>
+                        <div class="cardata" style="margin-top: 10px;">
+                            <div class="gps">
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" style="align-self: center;margin-right: 8px" xmlns="http://www.w3.org/2000/svg"><path d="M12.946 2.08999L8.97734 12.81C8.72667 13.4873 8.00467 13.8353 7.36534 13.5867C7.20701 13.5239 7.06339 13.4291 6.94349 13.3082C6.82359 13.1873 6.73002 13.0428 6.66867 12.884L5.41067 9.70399C5.17426 9.09355 4.70562 8.60166 4.10734 8.33599L1.07934 7.01532C0.449336 6.73999 0.162669 5.97666 0.438003 5.30999C0.503128 5.14902 0.599529 5.00256 0.721629 4.87908C0.843728 4.75561 0.989101 4.65758 1.14934 4.59066L11.36 0.423989C12.0047 0.160655 12.72 0.491322 12.9567 1.16332C13.0613 1.46066 13.0573 1.78999 12.9467 2.08999H12.946Z" fill="#D8D8D8"/></svg>
+                                <p id="detailsKmL" style="color: #D8D8D8;"> > 8km</p>
+                            </div>
+                            <div class="liters" style="margin-left: 20px;">
+                                <svg width="20" height="12" viewBox="0 0 20 12" fill="none" style="align-self: center;margin-right: 8px" xmlns="http://www.w3.org/2000/svg"><path d="M18 2C18 1.46957 17.7893 0.960859 17.4142 0.585786C17.0391 0.210714 16.5304 0 16 0H2C1.46957 0 0.960859 0.210714 0.585786 0.585786C0.210714 0.960859 0 1.46957 0 2V10C0 10.5304 0.210714 11.0391 0.585786 11.4142C0.960859 11.7893 1.46957 12 2 12H16C16.5304 12 17.0391 11.7893 17.4142 11.4142C17.7893 11.0391 18 10.5304 18 10V8H20V4H18V2ZM3 9V3H6L10 9H3Z" fill="#D8D8D8"/></svg>
+                                <p id="detailsKmL" style="color: #D8D8D8;"> 80%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrowborder">
+                        <img src="src/arrowIcon.png" alt="arrow" class="arrow">
+                    </div>
+                </div>
+                <!-- end second car from more cars box -->
+            </div>
+            <!-- end more cars box -->
+        </div>
+    </div>
+</body>
+</html>
